@@ -58,11 +58,11 @@ void setup() {
   // Fan Setup
   pinMode(PWM_fan_pin, OUTPUT_OPEN_DRAIN);
   pinMode(PWM_pump_pin, OUTPUT_OPEN_DRAIN);
-  pinMode(PWM_extra_pin, OUTPUT_OPEN_DRAIN);
+  //pinMode(PWM_extra_pin, OUTPUT_OPEN_DRAIN);
   analogWriteFrequency(25000);    //25 kHZ PWM-Frequency
   analogWrite(PWM_fan_pin, 150);  //58,8% Start Value
   analogWrite(PWM_pump_pin, 150); //58,8%
-  analogWrite(PWM_extra_pin, 150); //58,8%
+  //analogWrite(PWM_extra_pin, 150); //58,8%
 
   // ADC Setup
   pinMode(Temp_pin_sense, INPUT_ANALOG);
