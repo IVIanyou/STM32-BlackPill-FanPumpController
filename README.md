@@ -71,3 +71,14 @@ https://youtu.be/Myon8H111PQ
 
 ## 6. The Finished Project
 
+The finished build works flawlessly and looks amazing in my opinion. The fans and pump stay really quiet in short and bursty workloads and only ramp up when they need to. The colour of the display also matches the interior lighting almost perfectly. I can really recommend building such a project, as it is really usefull and you learn a ton on the way.
+
+<img src="Images/Finished_2.jpg" width="400" height="400">   <img src="Images/Finished_CloseUp.jpg" width="400" height="400">
+
+<img src="Images/Finished_1.jpg" width="400" height="400">   <img src="Images/Finished_3.jpg" width="400" height="400">
+
+## Inspiration: 
+
+https://www.youtube.com/@OptimumTech
+
+https://youtu.be/Toramr9PfOE
