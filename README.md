@@ -51,10 +51,23 @@ The final circuitry can be seen in the following circuit diagram:
 
 The pullup resistors and connections to the molex and USB connectors were directly soldered into one cable. The resistor for the voltage divider was directly soldered on top of the microcontroller from the pin to a ground connection.
 
+The Tachometer signal can be read as well, which is implemented in Version 1 of the code. The problem is, that outputting the PWM signals generates way too much interference and cant be easily filtered by software. It works perfectly without the PWM pins connected, but as soon as they are plugged in, the signal becomes a mess. A fitting capacitor would have to be used to read it with the microcontroller. Reading it with the motherboard however has some perks in itself, because you can have low RPM warnings for example.
+
 ## 4. Mounting Bracket
 
-As the Material for the mounting bracket, acrylic sheets with a thickness of 2,7 mm were chosen. These should be strong enough, non conductive and can be fused together very strongly with cyanoacrylate (super glue). After making a quick technical drawing by hand, the acrylic sheets were scored with a razer blade and broken off to size. Then the fitting holes were drilled and after sanding the edges, they were glued together. To mount the OLED display, an old fan connector was glued to the bottom, in which the pins fit in and hold the screen securely.
+As the Material for the mounting bracket, acrylic sheets with a thickness of 2,7 mm were chosen. These should be strong enough, non conductive and can be fused together very strongly with cyanoacrylate (super glue). After making a quick technical drawing by hand (STM32-BlackPill-FanPumpController/Technical_Drawing.pdf), the acrylic sheets were scored with a razer blade and broken off to size. Then the holes were drilled and after sanding the edges, the sheets were glued together. To mount the OLED display, an old fan connector was glued to the bottom, in which the pins fit in and hold the screen securely.
 
 <img src="Images/Bracket_1.jpg" width="400" height="400">   <img src="Images/Bracket_2.jpg" width="400" height="400"> 
 
 ## 5. Code
+
+The code itself is explained in comments and should be easy to understand. 
+
+Arduino in combination with STM32duino was used for programming the microcontroller:
+https://github.com/stm32duino
+
+An HID bootloader was used as the upload method, because it is way quicker than any adapter.
+https://youtu.be/Myon8H111PQ
+
+## 6. The Finished Project
+
