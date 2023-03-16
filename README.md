@@ -41,7 +41,7 @@ The temperature sensor is a thermistor, so it measures the temperature by changi
 
 ### Breadboard Mockup with Temperature Sensor
 
-<img src="Images/Mockup_temp_final.jpg" width="400" height="400">
+<img src="Images/Mockup_final_1.jpg" width="400" height="400">   <img src="Images/Mockup_final_2.jpg" width="400" height="400">
 
 ## 3. Code and Circuit
 
