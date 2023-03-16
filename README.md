@@ -45,7 +45,7 @@ The temperature sensor is a thermistor, so it measures the temperature by changi
 
 ## 3. Final Circuitry
 
-The final circuitry can be seen in the following circuit diagram:
+The final circuitry can be seen in the following circuit diagram (created in LTspice):
 
 <img src="Images/Circuitry.png" width="600" height="600">
 
