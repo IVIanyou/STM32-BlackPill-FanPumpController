@@ -32,4 +32,4 @@ The display is controlled by the I2C-Bus, so we just need to connect it to power
 
 ### Breadboard-Mockup PWM
 
-<img src="Fotos/Mockup_PWM_1.jpg" width="300" height="400">   <img src="Fotos/Mockup_PWM_2.jpg" width="300" height="400">
+<img src="Images/Mockup_PWM_1.jpg" width="300" height="400">   <img src="Images/Mockup_PWM_2.jpg" width="300" height="400">
