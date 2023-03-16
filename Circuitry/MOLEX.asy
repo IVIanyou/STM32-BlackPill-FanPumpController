@@ -1,0 +1,21 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -1 80 -1 -80
+LINE Normal 16 97 -1 80
+LINE Normal 62 97 16 97
+LINE Normal 62 -96 62 97
+LINE Normal 17 -96 62 -96
+LINE Normal -1 -80 17 -96
+TEXT -22 -114 Left 3 MOLEX
+PIN 0 -48 LEFT 8
+PINATTR PinName 5V
+PINATTR SpiceOrder 1
+PIN 0 -16 LEFT 8
+PINATTR PinName GND
+PINATTR SpiceOrder 2
+PIN 0 16 LEFT 8
+PINATTR PinName GND
+PINATTR SpiceOrder 3
+PIN 0 48 LEFT 8
+PINATTR PinName 12V
+PINATTR SpiceOrder 4

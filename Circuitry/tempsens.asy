@@ -1,0 +1,24 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -64 -16 64 -16
+LINE Normal -64 16 -64 -16
+LINE Normal -32 16 -64 16
+LINE Normal -32 48 -32 16
+LINE Normal -16 48 -32 48
+LINE Normal -16 96 -16 48
+LINE Normal 16 96 -16 96
+LINE Normal 16 48 16 96
+LINE Normal 32 48 16 48
+LINE Normal 32 16 32 48
+LINE Normal 64 16 32 16
+LINE Normal 64 -16 64 16
+LINE Normal 32 16 -32 16
+LINE Normal 16 48 -16 48
+LINE Normal 27 27 -27 19
+LINE Normal 27 35 -27 27
+LINE Normal 27 43 -27 35
+TEXT -50 1 Left 2 T-Sensor
+PIN 32 -16 NONE 8
+PINATTR SpiceOrder 1
+PIN -32 -16 NONE 8
+PINATTR SpiceOrder 2
