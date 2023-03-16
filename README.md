@@ -37,7 +37,7 @@ The display is controlled by the I2C Bus, so it just needs to be connected to po
 
 ### Reading the Temperature Sensor
 
-The temperature sensor is a thermistor, so it measures the temperature by changing its resistance value. The values for this sensor were listed on its product page. To measure resistance with a microcontroller we have to build a voltage divider and measure the voltage dropoff. Details and the kind of circuit that was used can be found in ther following article: https://www.circuitbasics.com/arduino-thermistor-temperature-sensor-tutorial/
+The temperature sensor is a thermistor, so it measures the temperature by changing its resistance value. The values for this sensor are listed on its product page. To measure resistance with a microcontroller we have to build a voltage divider and measure the voltage dropoff. Details and the kind of circuit that was used can be found in ther following article: https://www.circuitbasics.com/arduino-thermistor-temperature-sensor-tutorial/
 
 ### Breadboard Mockup with Temperature Sensor
 
@@ -55,7 +55,9 @@ The Tachometer signal can be read as well, which is implemented in Version 1 of 
 
 ## 4. Mounting Bracket
 
-As the Material for the mounting bracket, acrylic sheets with a thickness of 2,7 mm were chosen. These should be strong enough, non conductive and can be fused together very strongly with cyanoacrylate (super glue). After making a quick technical drawing by hand (STM32-BlackPill-FanPumpController/Technical_Drawing.pdf), the acrylic sheets were scored with a razer blade and broken off to size. Then the holes were drilled and after sanding the edges, the sheets were glued together. To mount the OLED display, an old fan connector was glued to the bottom, in which the pins fit in and hold the screen securely.
+As the Material for the mounting bracket, acrylic sheets with a thickness of 2,7 mm were chosen. These should be strong enough, non conductive and can be fused together very strongly with cyanoacrylate (super glue). 
+
+After making a quick technical drawing by hand (Technical_Drawing.pdf), the acrylic sheets were scored with a razer blade and broken off to size. Then the holes were drilled and after sanding the edges, the sheets were glued together. To mount the OLED display, an old fan connector was glued to the bottom, in which the pins fit in and hold the screen securely.
 
 <img src="Images/Bracket_1.jpg" width="400" height="400">   <img src="Images/Bracket_2.jpg" width="400" height="400"> 
 
