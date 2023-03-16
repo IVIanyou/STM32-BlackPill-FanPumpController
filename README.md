@@ -17,6 +17,8 @@ As a display the SSD1306 was chosen for very similar reasons and its fitting siz
 The temperature-sensor and watercooling-pump in this case is a Barrow TCWD-V1 and SPB17-TM, but any PWM-pump and temperature-sensor (thermistor type) with a datasheet should work.
 
 ## 2. Planning and Breadboard-Mockup
+
+### PWM-Signal Generation
 The PWM-signal that will be generated has to have a 5V amplitude and a 25 kHz frequency. The information in the signal is transferred through the Duty-Cycle of the signal. 
 The general specifications and tolance windows are published by noctua in the following white-paper: 
 https://noctua.at/pub/media/wysiwyg/Noctua_PWM_specifications_white_paper.pdf
@@ -33,3 +35,5 @@ The display is controlled by the I2C-Bus, so we just need to connect it to power
 ### Breadboard-Mockup PWM
 
 <img src="Images/Mockup_PWM_1.jpg" width="400" height="400">   <img src="Images/Mockup_PWM_2.jpg" width="400" height="400">
+
+
